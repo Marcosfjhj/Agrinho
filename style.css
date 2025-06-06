@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#garden {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin: 20px auto;
+    border-bottom: 10px solid #795548; /* Cor da terra */
+}
+
+#soil {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #795548;
+}
+
+#seed {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #a0785a;
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 400px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tree {
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40;
+    height: 80;
+    background-color: green;
+    border-radius: 110% 110% 10 10;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.controls {
+    margin-top: 20sspx;
+}
+
+#waterButton {
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 18px;
+    font-style: oblique;
+}

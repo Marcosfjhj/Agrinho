@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plante sua Árvore!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cuide Da Árvore</h1>
+
+        <div id="garden">
+            <div id="soil"></div>
+            <div id="seed" onclick="plantTree()"></div>
+            <div id="tree"></div>
+        </div>
+
+        <div class="controls">
+            <button id="waterButton" onclick="waterTree()">Regar Árvore</button>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
